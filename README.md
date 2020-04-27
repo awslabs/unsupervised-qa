@@ -1,8 +1,6 @@
 # Template-Based Question Generation from Retrieved Sentences for Improved Unsupervised Question Answering
 
-Code and synthetic data from our [paper](https://arxiv.org/abs/2004.11892)
-
-Publication to appear in [ACL 2020](https://acl2020.org/)
+Code and synthetic data from our [ACL 2020 paper](https://arxiv.org/abs/2004.11892)
 
 ## Abstract
 
