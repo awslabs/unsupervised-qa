@@ -22,13 +22,35 @@ for unsupervised QA.
 
 Generated synthetic data for the publication is located under `enwiki_synthetic/`
 
-## Usage
+## Requirements
 
-Instructions to appear soon
+1. PySpark
+2. ElasticSearch 6
+
+## Instruction to generate retrieval-based synthetic data
+
+Tokenize and perform NER:
+
+```
+spark-submit --master local[90] --driver-memory 200G spark_scripts/tokenize_and_ner_inputs.py --corpus=enwiki/clean/*/*.raw  --output outputs/sent-tok-rollup
+```
+
+Then we write the tokenized sentences to ElasticSearch index. This uses `AES_HOSTS` environment variable.
+
+```
+spark-submit --master local[90] --driver-memory 4G spark_scripts/write_sentence_level_es_index.py --corpus=outputs/sent-tok-rollup/rollup/ --es-index uqa-es-index --output outputs/write-es
+```
+
+Create QA synthetic dataset
+
+```
+spark-submit --master local[90] --driver-memory 300G spark_scripts/create_ds_synthetic_dataset.py --corpus=outputs/sent-tok-rollup/rollup/ --output outputs/synthetic-uqa-auxqs1awc1-`utcid` --aux-qs=1 --aux-awc=1 --ulim-count=500000
+```
+
 
 ## Citation
 
-<https://www.aclweb.org/anthology/2020.acl-main.413/>
+You can cite our [paper](https://www.aclweb.org/anthology/2020.acl-main.413/):
 
 ```
 @inproceedings{fabbri-etal-2020-template,
