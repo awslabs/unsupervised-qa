@@ -1,0 +1,291 @@
+[CARDINAL]
+"how many" = 2432
+# "what was" = 142
+# "what is" = 139
+# "in what" = 52
+# "when did" = 40
+# "how much" = 29
+# "according to" = 28
+# "as of" = 26
+# "about how" = 23
+# "when was" = 19
+# "what year" = 19
+# "in the" = 19
+# "approximately how" = 17
+# "in how" = 15
+# "how old" = 13
+# "during what" = 11
+# "in which" = 10
+
+[DATE]
+"when did" = 1663
+# "when was" = 1276
+# "in what" = 1067
+# "what year" = 666
+# "on what" = 248
+# "how long" = 196
+# "when were" = 128
+# "in which" = 96
+# "what was" = 83
+# "what date" = 46
+# "what is" = 45
+# "during what" = 42
+# "by what" = 42
+# "how many" = 41
+# "when does" = 30
+# "when is" = 30
+# "on which" = 28
+# "which year" = 27
+# "what day" = 26
+# "how often" = 21
+# "what month" = 19
+# "for how" = 18
+# "when will" = 16
+# "how old" = 15
+# "at what" = 14
+# "what years" = 13
+# "the first" = 13
+# "during which" = 13
+# "since when" = 11
+
+[EVENT]
+# "what was" = 27
+# "during what" = 14
+"what event" = 11
+# "what war" = 11
+
+[FAC]
+"what is" = 90
+# "what was" = 34
+# "where did" = 28
+# "where was" = 14
+# "where is" = 14
+# "in what" = 12
+# "where does" = 11
+# "on what" = 11
+# "which street" = 10
+
+[GPE]
+"in what" = 221
+# "what is" = 211
+# "where did" = 188
+# "what country" = 179
+# "where was" = 178
+# "where is" = 161
+# "what was" = 148
+# "what city" = 88
+# "which country" = 77
+# "along with" = 54
+# "who was" = 45
+# "in which" = 40
+# "which city" = 40
+# "what state" = 38
+# "who did" = 37
+# "where were" = 29
+# "where does" = 24
+# "where are" = 22
+# "which state" = 21
+# "what nation" = 20
+# "what did" = 20
+# "who is" = 17
+# "what other" = 16
+# "where do" = 15
+# # "what s" = 13
+# "in the" = 13
+# "from what" = 12
+# # "what language" = 10
+# "where in" = 10
+# "what region" = 10
+# "what county" = 10
+
+[LANGUAGE]
+"what language" = 20
+# "what is" = 11
+
+[LAW]
+"what law" = 100  # added manually
+
+[LOC]
+"what is" = 50
+# "where did" = 35
+# "what was" = 20
+# "where is" = 19
+# "in what" = 18
+# "where was" = 17
+# "on what" = 15
+
+[MONEY]
+"how much" = 206
+# "what was" = 62
+# "what is" = 20
+
+[NORP]
+"what is" = 108
+# "what language" = 79
+# "what was" = 72
+# "what religion" = 31
+# "what nationality" = 31
+# "what type" = 24
+# "along with" = 23
+# "in what" = 22
+# "what group" = 20
+# "from what" = 16
+# "of what" = 14
+# "who was" = 12
+# "what country" = 12
+# "what political" = 11
+# "which group" = 11
+# "who did" = 10
+
+[ORDINAL]
+"where does" = 29
+# "what is" = 14
+# "where did" = 12
+# "in what" = 10
+
+[ORG]
+"what is" = 473
+# "what was" = 280
+# "who was" = 144
+# "what company" = 77
+# "where did" = 71
+# "who did" = 70
+# "who is" = 56
+# "where was" = 55
+# "what organization" = 52
+# "what did" = 46
+# "in what" = 45
+# "what does" = 44
+# "along with" = 33
+# "what group" = 32
+# "which company" = 30
+# "where is" = 27
+# "what s" = 22
+# "what type" = 21
+# "on what" = 20
+# "what are" = 19
+# "at what" = 17
+# "what magazine" = 16
+# "where are" = 16
+# "in which" = 16
+# "who wrote" = 16
+# "what religion" = 15
+# "what university" = 15
+# "what other" = 14
+# "what team" = 14
+# "who won" = 14
+# "what kind" = 14
+# "what agency" = 13
+# "what institution" = 12
+# "what city" = 12
+# "what book" = 12
+# "what school" = 12
+# "with what" = 12
+# "what do" = 12
+# "which group" = 11
+# "in the" = 10
+# "which of" = 10
+
+[PERCENT]
+"what percentage" = 259
+# "how much" = 152
+# "what percent" = 95
+# "what was" = 62
+# "what is" = 55
+# "how many" = 36
+# "according to" = 20
+# "in the" = 12
+
+[PERSON]
+"who was" = 936
+# "what is" = 315
+# "what was" = 272
+# "who is" = 242
+# "who did" = 175
+# "who wrote" = 120
+# "along with" = 64
+# "who led" = 54
+# "who said" = 41
+# "who won" = 40
+# "who designed" = 40
+# "who founded" = 39
+# "who created" = 38
+# "who became" = 30
+# "where did" = 30
+# "where was" = 29
+# "who discovered" = 28
+# "what did" = 27
+# "where is" = 26
+# "which contestant" = 26
+# "what famous" = 24
+# "who developed" = 23
+# "who has" = 23
+# "who came" = 22
+# "in what" = 22
+# "which of" = 21
+# "who first" = 20
+# "who made" = 19
+# "who took" = 19
+# "what city" = 18
+# "with whom" = 18
+# "who had" = 18
+# "who argued" = 17
+# "in the" = 17
+# "who played" = 16
+# "who stated" = 16
+# "which president" = 15
+# "who invented" = 15
+# "what artist" = 15
+# "who gave" = 14
+# "what are" = 14
+# "what leader" = 14
+# "who coined" = 14
+# "who starred" = 14
+# "who replaced" = 14
+# "which former" = 13
+# # "what s" = 13
+# "who introduced" = 13
+# "what do" = 13
+# "which candidate" = 13
+# "to whom" = 13
+# "what other" = 13
+# "according to" = 13
+# "which artist" = 13
+# "what former" = 12
+# "what group" = 12
+# # "what language" = 12
+# "from what" = 11
+# "who thought" = 11
+# "who believed" = 11
+# "who described" = 11
+# "what type" = 11
+# "who built" = 10
+# "who directed" = 10
+# "in which" = 10
+# # "who s" = 10
+# "which scientist" = 10
+# "what name" = 10
+
+[PRODUCT]
+"what was" = 26
+# "what is" = 25
+# "who was" = 10
+
+[QUANTITY]
+# "what is" = 50
+"how many" = 46
+# "how much" = 37
+# "how long" = 15
+# "what was" = 15
+# "how far" = 14
+
+[TIME]
+"how long" = 16
+# "what is" = 11
+
+[WORK_OF_ART]
+"what was" = 104
+# "what is" = 66
+# "what song" = 24
+# "what did" = 14
+# "what book" = 11

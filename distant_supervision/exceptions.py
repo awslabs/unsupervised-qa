@@ -1,0 +1,3 @@
+
+class DsDatasetCreationError(Exception):
+    pass
