@@ -44,7 +44,7 @@ spark-submit --master local[90] --driver-memory 4G spark_scripts/write_sentence_
 Create QA synthetic dataset
 
 ```
-spark-submit --master local[90] --driver-memory 300G spark_scripts/create_ds_synthetic_dataset.py --corpus=outputs/sent-tok-rollup/rollup/ --output outputs/synthetic-uqa-auxqs1awc1-`utcid` --aux-qs=1 --aux-awc=1 --ulim-count=500000
+spark-submit --master local[90] --driver-memory 300G spark_scripts/create_ds_synthetic_dataset.py --corpus=outputs/sent-tok-rollup/rollup/ --output outputs/synthetic-uqa-auxqs1awc1 --aux-qs=1 --aux-awc=1 --ulim-count=500000
 ```
 
 
